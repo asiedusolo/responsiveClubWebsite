@@ -64,5 +64,88 @@ nav ul li a{
     }
 }
 
+main{
+    margin: 50px 10%;
+}
+
+.big-banner{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.big-banner .img-section-1{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.big-banner .img-section-1 .horse-1{
+    width: 45%;
+    height: inherit;
+    align-self: center;
+
+}
+.big-banner .img-section-1 .horse-2{
+    width: 45%;
+    height: inherit;
+    align-self: stretch;
+
+}
+.big-banner .img-section-1 .horse-1 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.big-banner .img-section-1 .horse-2 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+}
+.big-banner .img-section-2{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big-banner .img-section-2 .horse-3{
+    width: 45%;
+    height: inherit;
+    align-self: stretch;
+}
+.big-banner .img-section-2 .horse-4{
+    width: 45%;
+    height: inherit;
+    align-self: center;
+}
+
+.big-banner .img-section-2 .horse-3 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.big-banner .img-section-2 .horse-4 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.big-banner .banner-section{
+    width: 40%;
+    
+}
+
+
+main .mission-statement{
+    text-align: center;
+    width: 200px;
+    margin: 60px auto;
+    border: 1px solid blue;
+}
+
+
+
 
 
